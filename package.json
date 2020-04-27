@@ -1,0 +1,20 @@
+{
+  "name": "ssb-webrtc",
+  "version": "1.0.0",
+  "description": "Direct connections are good! This module implements a SecretStack plugin that lets you take a MuxRPC session and negotiate a WebRTC session. Right now it only publishes some unencrypted text between the two peers to ensure that it's working correctly, but in the future maybe it'll start an encrypted MuxRPC session between your peers.",
+  "main": "index.js",
+  "dependencies": {
+    "simple-peer": "^9.7.0",
+    "wrtc": "^0.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "ssb",
+    "webrtc"
+  ],
+  "author": "Christian Bundy <christianbundy@fraction.io>",
+  "license": "AGPL-3.0"
+}
